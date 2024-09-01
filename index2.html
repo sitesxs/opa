@@ -310,6 +310,17 @@
 </body>
 <!-- partial -->
   <script  src="./script.js"></script>
+  <audio id="meuAudio" hidden>
+    <source src="./audio/audio.mp3" type="audio/mpeg">
+    Seu navegador não suporta o elemento de áudio.
+  </audio>
+  
+  <script>
+    // Para tocar o áudio automaticamente ao carregar a página
+    window.onload = function() {
+      document.getElementById('meuAudio').play();
+    };
+  </script>
 
 </body>
 </html>
