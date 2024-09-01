@@ -4,3 +4,9 @@ onload = () => {
       clearTimeout(c);
     }, 1000);
   };
+
+
+
+window.onload = function() {
+  document.getElementById('meuAudio').play();
+};
