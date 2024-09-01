@@ -5,8 +5,9 @@ onload = () => {
     }, 1000);
   };
 
+  window.onload = function() {
+    document.getElementById('meuAudio').play();
+  };
 
 
-window.onload = function() {
-  document.getElementById('meuAudio').play();
-};
+
